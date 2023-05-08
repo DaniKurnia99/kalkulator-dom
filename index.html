@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kalkulator">  
+        <input type="number" id="angka1" placeholder="angka 1">
+        <input type="number" id="angka2" placeholder="angka 2">
+        <input type="text" id="hasil" placeholder="hasil" readonly>
+
+
+        <div class="buttons">
+            <button type="button" onclick="tambah()">+</button>
+            <button type="button" onclick="kurang()">-</button>
+            <button type="button" onclick="kali()">*</button>
+            <button type="button" onclick="bagi()">/</button>
+        </div>
+        
+        <br>
+        <button type="button" onclick="reset()" class="reset">Reset</button>
+        
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+
+</body>
+</html>
